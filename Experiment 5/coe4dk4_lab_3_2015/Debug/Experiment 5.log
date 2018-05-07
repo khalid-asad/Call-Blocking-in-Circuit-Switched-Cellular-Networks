@@ -1,0 +1,23 @@
+﻿Build started 2015-11-08 1:58:57 AM.
+     1>Project "C:\Users\khali\Documents\_School\4DK4\Labs\Lab 03\Experiment 5\coe4dk4_lab_3_2015\Experiment 5.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Experiment4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt call_departure.c
+         call_departure.c
+     1>call_departure.c(93): warning C4013: 'get_free_channel' undefined; assuming extern returning int
+     1>call_departure.c(93): warning C4047: '=': 'Channel_Ptr' differs in levels of indirection from 'int'
+     1>call_departure.c(101): warning C4013: 'get_call_duration' undefined; assuming extern returning int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\khali\Documents\_School\4DK4\Labs\Lab 03\Experiment 5\coe4dk4_lab_3_2015\Debug\Experiment 5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\khali\Documents\_School\4DK4\Labs\Lab 03\Experiment 5\coe4dk4_lab_3_2015\Debug\Experiment 5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\khali\Documents\_School\4DK4\Labs\Lab 03\Experiment 5\coe4dk4_lab_3_2015\Debug\Experiment 5.lib" /MACHINE:X86 Debug\call_arrival.obj
+         Debug\call_departure.obj
+         Debug\call_duration.obj
+         Debug\cleanup.obj
+         Debug\main.obj
+         Debug\output.obj
+         Debug\simlib.obj
+         Experiment 5.vcxproj -> C:\Users\khali\Documents\_School\4DK4\Labs\Lab 03\Experiment 5\coe4dk4_lab_3_2015\Debug\Experiment 5.exe
+     1>Done Building Project "C:\Users\khali\Documents\_School\4DK4\Labs\Lab 03\Experiment 5\coe4dk4_lab_3_2015\Experiment 5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.49
